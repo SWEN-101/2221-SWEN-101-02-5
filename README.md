@@ -8,7 +8,7 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 <_each team member clones repo and then edits/replace with their name below_>
 - Niko Medina
 - Ethan Patterson
-- MEMBER03
+- Trevor Wiesen
 - MEMBER04
 
 
