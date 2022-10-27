@@ -32,7 +32,7 @@ Document any known bug or nuisance.
 If any shortcomings, make clear what these are and where they are located.
 
 ## Link or full list of requirements
- <_you could linkto the specific private board where your backlog is kept_>
+https://trello.com/b/tXoHWi32/2221-swen-101-02-5 
 
 
 
