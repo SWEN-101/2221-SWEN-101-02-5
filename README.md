@@ -43,3 +43,44 @@ https://trello.com/b/tXoHWi32/2221-swen-101-02-5
 <_replace with the type of license you will use for the project_> e.g. MIT License
 
 See LICENSE for details.
+
+## Wireframe Pages
+Page One: Login Button Page
+Creator:
+Tested By:
+Bugs Found:
+
+Page Two: RIT Integrated Login
+Creator:
+Tested By:
+Bugs Found:
+
+Page Three: Home Page
+Creator:
+Tested By:
+Bugs Found:
+
+Page Four: Laundry Room Overview
+Creator:
+Tested By:
+Bugs Found:
+
+Page Five: Laundry Chat
+Creator:
+Tested By:
+Bugs Found:
+
+Page Six: What Went Wrong
+Creator:
+Tested By:
+Bugs Found:
+
+Page Seven: Active Machines Page
+Creator:
+Tested By:
+Bugs Found:
+
+Page Eight: Machine Reservation
+Creator:
+Tested By:
+Bugs Found:
