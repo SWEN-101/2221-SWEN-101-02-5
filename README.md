@@ -49,63 +49,95 @@ See LICENSE for details.
 
 **Creator:**
 
+**Ready For Testing:** No
+
 **Tested By:**
 
 **Bugs Found:**
+
+**Finished:** No
 #
 **Page Two:** RIT Integrated Login
 
 **Creator:**
 
+**Ready For Testing:** No
+
 **Tested By:**
 
 **Bugs Found:**
+
+**Finished:** No
 #
 **Page Three:** Home Page
 
 **Creator:**
 
+**Ready For Testing:** No
+
 **Tested By:**
 
 **Bugs Found:**
+
+**Finished:** No
 #
 **Page Four:** Laundry Room Overview
 
 **Creator:**
 
+**Ready For Testing:** No
+
 **Tested By:**
 
 **Bugs Found:**
+
+**Finished:** No
 #
 **Page Five:** Laundry Chat
 
 **Creator:**
 
+**Ready For Testing:** No
+
 **Tested By:**
 
 **Bugs Found:**
+
+**Finished:** No
 #
 **Page Six:** What Went Wrong
 
 **Creator:**
 
+**Ready For Testing:** No
+
 **Tested By:**
 
 **Bugs Found:**
+
+**Finished:** No
 #
 **Page Seven:** Active Machines Page
 
 **Creator:**
 
+**Ready For Testing:** No
+
 **Tested By:**
 
 **Bugs Found:**
+
+**Finished:** No
 #
 
 **Page Eight:** Machine Reservation
 
 **Creator:**
 
+**Ready For Testing:** No
+
 **Tested By:**
 
 **Bugs Found:**
+
+**Finished:** No
