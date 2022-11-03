@@ -45,42 +45,67 @@ https://trello.com/b/tXoHWi32/2221-swen-101-02-5
 See LICENSE for details.
 
 ## Wireframe Pages
-Page One: Login Button Page
-Creator:
-Tested By:
-Bugs Found:
+**Page One:** Login Button Page
 
-Page Two: RIT Integrated Login
-Creator:
-Tested By:
-Bugs Found:
+**Creator:**
 
-Page Three: Home Page
-Creator:
-Tested By:
-Bugs Found:
+**Tested By:**
 
-Page Four: Laundry Room Overview
-Creator:
-Tested By:
-Bugs Found:
+**Bugs Found:**
+#
+**Page Two:** RIT Integrated Login
 
-Page Five: Laundry Chat
-Creator:
-Tested By:
-Bugs Found:
+**Creator:**
 
-Page Six: What Went Wrong
-Creator:
-Tested By:
-Bugs Found:
+**Tested By:**
 
-Page Seven: Active Machines Page
-Creator:
-Tested By:
-Bugs Found:
+**Bugs Found:**
+#
+**Page Three:** Home Page
 
-Page Eight: Machine Reservation
-Creator:
-Tested By:
-Bugs Found:
+**Creator:**
+
+**Tested By:**
+
+**Bugs Found:**
+#
+**Page Four:** Laundry Room Overview
+
+**Creator:**
+
+**Tested By:**
+
+**Bugs Found:**
+#
+**Page Five:** Laundry Chat
+
+**Creator:**
+
+**Tested By:**
+
+**Bugs Found:**
+#
+**Page Six:** What Went Wrong
+
+**Creator:**
+
+**Tested By:**
+
+**Bugs Found:**
+#
+**Page Seven:** Active Machines Page
+
+**Creator:**
+
+**Tested By:**
+
+**Bugs Found:**
+#
+
+**Page Eight:** Machine Reservation
+
+**Creator:**
+
+**Tested By:**
+
+**Bugs Found:**
