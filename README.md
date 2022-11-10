@@ -1,8 +1,6 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8511984&assignment_repo_type=AssignmentRepo)
 # Project Name: RIT Laundry
 # Modify this document to expand any and all sections that are applicable for a better understanding from your users/testers/collaborators (remove this comment and other instructions areas for your FINAL release)
-
-An online E-store system built in github.io .. etc. <_replace with other platform requirements_>
   
 ## Team 5
 <_each team member clones repo and then edits/replace with their name below_>
@@ -21,9 +19,8 @@ An online E-store system built in github.io .. etc. <_replace with other platfor
 ## How to access it or run it  <_add when applicable_>
 
 1. Clone the repository and go to the root directory.
-2.  
-3.  
-4.  
+2. Open the "initialLoginPage" in the pages folder
+3. Every other page can be accessed from this first page
 
 ## Known bugs and disclaimers
 (It may be the case that your implementation is not perfect...)
@@ -47,9 +44,9 @@ See LICENSE for details.
 ## Wireframe Pages
 **Page One:** Login Button Page
 
-**Creator:**
+**Creator:** Ethan Patterson
 
-**Ready For Testing:** No
+**Ready For Testing:** Yes
 
 **Tested By:**
 
@@ -59,7 +56,7 @@ See LICENSE for details.
 #
 **Page Two:** RIT Integrated Login
 
-**Creator:**
+**Creator:** Ethan Patterson
 
 **Ready For Testing:** No
 
