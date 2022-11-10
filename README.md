@@ -68,7 +68,7 @@ See LICENSE for details.
 #
 **Page Three:** Home Page
 
-**Creator:**
+**Creator:** Niko Medina
 
 **Ready For Testing:** No
 
@@ -80,7 +80,7 @@ See LICENSE for details.
 #
 **Page Four:** Laundry Room Overview
 
-**Creator:**
+**Creator:** Ethan Patterson
 
 **Ready For Testing:** No
 
@@ -104,7 +104,7 @@ See LICENSE for details.
 #
 **Page Six:** What Went Wrong
 
-**Creator:**
+**Creator:** Trevor Wiesen
 
 **Ready For Testing:** No
 
@@ -116,7 +116,7 @@ See LICENSE for details.
 #
 **Page Seven:** Active Machines Page
 
-**Creator:**
+**Creator:** Trevor Wiesen
 
 **Ready For Testing:** No
 
