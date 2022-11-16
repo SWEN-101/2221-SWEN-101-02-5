@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        .submitButton {
+        background-color: #a8a8a8;
+        font-size: 24px;
+        border-radius: 4px;
+        color: rgb(0, 0, 0);
+        padding: 15px 32px;
+        border: 2px solid #585858;
+        transition-duration: 0.4s;
+        text-align: center;
+        margin: 25px 0px;
+        position: absolute;
+        right:15%;
+}
+    .submitButton:hover {
+      background-color: #cacaca;
+      color: rgb(39, 38, 38);
+    }
+    .textarea {
+        height:300px;
+        width:70%;
+        font-size: 200%;
+        resize: none;
+        font-family: 'Courier';
+    }
+    .text {
+        font-size: 200%;
+        font-family: 'Courier';
+        font-weight: bolder;
+    }
+    .dropdown {
+        font-size: 150%;
+        font-family: 'Courier';
+    }
+    </style>
+    <title>RIT Laundry- What Went Wrong</title>
+    <meta name="Rit Laundry" content="What Went Wrong">
+</head>
+<body style="background-color:rgb(244, 218, 177);">
+    <a href="landingPage.html">
+        <img src="../resources/homeButton.png" alt="home button" style="right:0%;top:0%;margin:15px 20px;position:absolute;">
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <center>
+        <label for="problems" class="text">What Went Wrong:</label>
+        <select name="problems" class="dropdown" id="problems">
+            <option value="washingMachineBroke">Washing Machine Broke</option>
+            <option value="dryerBroke">Dryer Broke</option>
+            <option value="appBroke">App Broke</option>
+            <option value="other">Other</option>
+        </select>
+        <text>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</text>
+        <label for="locations" class="text">Location:</label>
+        <select name="locations" class="dropdown" id="'locations">
+            <option value="sol">Sol Laundry Room</option>
+            <option value="gleason">Gleason Laundry Room</option>
+            <option value="three">Laundry Room Three</option>
+            <option value="four">Laundry Room Four</option>
+            <option value="five">Laundry Room Five</option>
+            <option value="six">Laundry Room Six</option>
+            <option value="seven">I'll figure names out later</option>
+        </select>
+    </center>
+    <br>
+    <br>
+    <br>
+    <center>
+        <textarea name="problemTextarea" class="textarea" placeholder="Enter your issue here..." ></textarea>
+    </center>
+    <a href="wentWrongThanks.html">
+        <button class="button submitButton">Submit</button>
+    </a>
+</body>
+</html>
