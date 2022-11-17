@@ -16,8 +16,13 @@
         right:15%;
 }
     .submitButton:hover {
-      background-color: #cacaca;
-      color: rgb(39, 38, 38);
+        background-color: #cacaca;
+        color: rgb(39, 38, 38);
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
     }
     .textarea {
         height:300px;
@@ -35,12 +40,40 @@
         font-size: 150%;
         font-family: 'Courier';
     }
+    .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .popuptext {
+        visibility: hidden;
+        background-color: #555;
+        width: 60%;
+        height: 125px;
+        text-align: center;
+        vertical-align: middle;
+        font-family: 'Courier';
+        font-size: 300%;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        left: 50%;
+        padding-top: 75px;
+        transform: translate(-50%, -130%);
+    }
     </style>
     <title>RIT Laundry- What Went Wrong</title>
     <meta name="Rit Laundry" content="What Went Wrong">
 </head>
-<body style="background-color:rgb(244, 218, 177);">
-    <a href="landingPage.html">
+<body style="background-color:rgb(244, 218, 177);" >
+    <a href="tempHomePage.html">
         <img src="../resources/homeButton.png" alt="home button" style="right:0%;top:0%;margin:15px 20px;position:absolute;">
     </a>
     <br>
@@ -51,8 +84,8 @@
     <br>
     <br>
     <center>
-        <label for="problems" class="text">What Went Wrong:</label>
-        <select name="problems" class="dropdown" id="problems">
+        <label for="problems" class="text" >What Went Wrong:</label>
+        <select name="problems" class="dropdown" id="problems" onclick="hidePopup()">
             <option value="washingMachineBroke">Washing Machine Broke</option>
             <option value="dryerBroke">Dryer Broke</option>
             <option value="appBroke">App Broke</option>
@@ -60,24 +93,40 @@
         </select>
         <text>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</text>
         <label for="locations" class="text">Location:</label>
-        <select name="locations" class="dropdown" id="'locations">
+        <select name="locations" class="dropdown" id="'locations" onclick="hidePopup()">
             <option value="sol">Sol Laundry Room</option>
             <option value="gleason">Gleason Laundry Room</option>
-            <option value="three">Laundry Room Three</option>
-            <option value="four">Laundry Room Four</option>
-            <option value="five">Laundry Room Five</option>
-            <option value="six">Laundry Room Six</option>
-            <option value="seven">I'll figure names out later</option>
+            <option value="gibson">Gibson Laundry Room</option>
+            <option value="peterson">Peterson Laundry Room</option>
+            <option value="frat1">Frat Laundry Room One</option>
+            <option value="frat2">Frat Laundry Room Two</option>
+            <option value="sorority">Sorority Laundry Room</option>
         </select>
     </center>
     <br>
     <br>
     <br>
     <center>
-        <textarea name="problemTextarea" class="textarea" placeholder="Enter your issue here..." ></textarea>
+        <textarea name="problemTextarea" class="textarea" onclick="hidePopup()" placeholder="Enter your issue here..."  id="textareaa"></textarea>
     </center>
-    <a href="wentWrongThanks.html">
-        <button class="button submitButton">Submit</button>
-    </a>
+        <button class="button submitButton" onclick="showPopup()">Submit</button>
+        <span class="popuptext" id="myPopup" onclick="hidePopup()">Submission Succsessful</span>
+        <span class="popuptext" id="error" onclick="hidePopup()">Please Describe Your Issue</span>
+    <script>
+        // When the user clicks on div, open the popup
+        function showPopup() {
+            if(document.getElementById("textareaa").value == ''){
+                document.getElementById("error").style.visibility = "visible"
+            }
+            else{
+                document.getElementById("textareaa").value = ''
+                document.getElementById("myPopup").style.visibility = "visible"
+            }
+        }
+        function hidePopup() {  
+            document.getElementById("myPopup").style.visibility = "hidden"
+            document.getElementById("error").style.visibility = "hidden"
+        }
+    </script>
 </body>
 </html>
