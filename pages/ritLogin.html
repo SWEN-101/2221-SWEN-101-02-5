@@ -18,18 +18,18 @@
       <div class="loginBox"><img src="../resources/RIT_RGB_hor.png" class="ritLogo" alt="RIT Logo"><span class="contactInfo">
           <p> Login to rit.laundry.com </p>
         </span>
-        <form method="post"><input type="hidden">
+        <form><input type="hidden">
           <div class="inputLogin">
             <label for="ritUsername">Username</label>
             <input required="" id="ritUsername" name="j_username" title="RIT Account Username" placeholder="RIT Username" autocorrect="off" autocapitalize="none" value="">
             <label for="ritPassword" class="passwordInput">Password</label>
             <input required="" type="password" id="ritPassword" name="j_password" title="RIT Account Password" placeholder="Password">
             <span class="loginButtons">
-              <span style="visibility:visible">
+              <span style="visibility:hidden">
                 <input name="donotcache" id="rememberMe" type="checkbox">
                 <label for="rememberMe">Save Password</label>
               </span>
-              <button name="_eventId_proceed" type="submit" formaction="../pages/tempHomePage.html">Login</button>
+              <button name="_eventId_proceed" type="submit" formaction="tempHomePage.html">Login</button>
             </span>
             <div class="contactInfo">
               <div class="authLinks">
