@@ -18,13 +18,8 @@
       <div class="loginBox"><img src="../resources/RIT_RGB_hor.png" class="ritLogo" alt="RIT Logo"><span class="contactInfo">
           <p> Login to rit.laundry.com </p>
         </span>
-        <form action="tempHomePage.html" method="post"><input type="hidden" name="csrf_token" value=null>
+        <form action="../pages/tempHomePage.html" method="post"><input type="hidden">
           <div class="inputLogin">
-            <!-- Error Display -->
-            <div class="loginExpired" style="display:none;padding: 0">
-              <span class="error">Login Session Expired</span>
-            </div>
-            <!-- End Error Display -->
             <label for="ritUsername">Username</label>
             <input required="" id="ritUsername" name="j_username" title="RIT Account Username" placeholder="RIT Username" autocorrect="off" autocapitalize="none" value="">
             <label for="ritPassword" class="passwordInput">Password</label>
@@ -47,6 +42,5 @@
               </div>
             </div>
           </div>
-        </form>
   </body>
 </html>
