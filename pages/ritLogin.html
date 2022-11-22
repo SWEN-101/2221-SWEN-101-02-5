@@ -18,7 +18,7 @@
       <div class="loginBox"><img src="../resources/RIT_RGB_hor.png" class="ritLogo" alt="RIT Logo"><span class="contactInfo">
           <p> Login to rit.laundry.com </p>
         </span>
-        <form action="../pages/tempHomePage.html" method="post"><input type="hidden">
+        <form method="post"><input type="hidden">
           <div class="inputLogin">
             <label for="ritUsername">Username</label>
             <input required="" id="ritUsername" name="j_username" title="RIT Account Username" placeholder="RIT Username" autocorrect="off" autocapitalize="none" value="">
@@ -29,7 +29,7 @@
                 <input name="donotcache" id="rememberMe" type="checkbox">
                 <label for="rememberMe">This is a public computer</label>
               </span>
-              <button name="_eventId_proceed">Login</button>
+              <button name="_eventId_proceed" formaction="../pages/tempHomePage.html">Login</button>
             </span>
             <div class="contactInfo">
               <div class="authLinks">
