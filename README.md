@@ -92,7 +92,7 @@ See LICENSE for details.
 #
 **Page Five:** Laundry Chat
 
-**Creator:**
+**Creator:** Niko Medina
 
 **Ready For Testing:** No
 
