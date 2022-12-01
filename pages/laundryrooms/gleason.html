@@ -139,7 +139,7 @@
     </center>
     <p id="time"></p>
     <script>
-        var timeGoalA = new Date().getTime() + 24 * 60 * 1000;
+        var timeGoalA = new Date().getTime() + 10 * 60 * 1000;
         var x = setInterval(function() {
             var distance = timeGoalA - new Date().getTime();
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -158,7 +158,7 @@
             document.getElementById("washer01").innerHTML = 'Washer: 02 ' + status;
 
         }, 50);
-        var timeGoalB = new Date().getTime() + .25 * 60 * 1000;
+        var timeGoalB = new Date().getTime() + .90 * 60 * 1000;
         var z = setInterval(function() {
             var distance = timeGoalB - new Date().getTime();
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -177,7 +177,7 @@
             document.getElementById("washer02").innerHTML = 'Washer: 01 ' + status;
 
         }, 50);
-        var timeGoalC = new Date().getTime() + 2.6 * 60 * 1000;
+        var timeGoalC = new Date().getTime() + 8.34 * 60 * 1000;
         var y = setInterval(function() {
             var distance = timeGoalC - new Date().getTime();
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
