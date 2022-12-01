@@ -101,43 +101,42 @@
 </style>
 </head>
 <body style="background-color:rgb(244, 218, 177);">
-    <a href="..\tempHomePage.html">
+    <a href="..\homepage.html">
         <img src="..\..\resources\homeButton.png" alt="home button" style="right:0%;top:0%;margin:15px 20px;position:absolute;">
     </a>
     <center>
         <p class="header">Gleason Laundry Room</p>
-    </center>
+
+
+    <textarea class="brokemachine" id = "dryer06" disabled>Dryer: 01 Broken, awaiting repair</textarea>
+    <textarea class="freemachine" id="dryer07" disabled >Dryer: 02 Available machine</textarea>
+    <textarea class="freemachine" id="dryer08" disabled >Dryer: 03 Available machine</textarea>
+    <textarea class="donemachine" id="dryer09" disabled >Dryer: 04 Finished, awaiting pickup</textarea>
+    <textarea class="freemachine" id="dryer10" disabled >Dryer: 05 Available machine</textarea>
+    <br>
         <textarea class="timedmachine" id = "dryer01" disabled></textarea>
-        
-        <textarea class="donemachine" id="dryer02" disabled >Dryer: 02 Finished, awaiting pickup</textarea>
-        <textarea class="freemachine" id="dryer03" disabled >Dryer: 03 Available machine</textarea>
-        <textarea class="brokemachine" id="dryer04" disabled >Dryer: 04 Broken, awaiting repair</textarea>
-        <textarea class="freemachine" id="dryer05" disabled >Dryer: 05 Available machine</textarea>
-        <br>
-        <textarea class="brokemachine" id = "dryer06" disabled>Dryer: 06 Broken, awaiting repair</textarea>
-        <textarea class="freemachine" id="dryer07" disabled >Dryer: 07 Available machine</textarea>
-        <textarea class="freemachine" id="dryer08" disabled >Dryer: 08 Available machine</textarea>
-        <textarea class="donemachine" id="dryer09" disabled >Dryer: 09 Finished, awaiting pickup</textarea>
-        <textarea class="freemachine" id="dryer10" disabled >Dryer: 10 Available machine</textarea>
+        <textarea class="donemachine" id="dryer02" disabled >Dryer: 07 Finished, awaiting pickup</textarea>
+        <textarea class="freemachine" id="dryer03" disabled >Dryer: 08 Available machine</textarea>
+        <textarea class="brokemachine" id="dryer04" disabled >Dryer: 09 Broken, awaiting repair</textarea>
+        <textarea class="freemachine" id="dryer05" disabled >Dryer: 10 Available machine</textarea>
         <br>
         <br>
         <br>
         <br>
         <br>
-        <br>
-        <textarea class="timedmachine" id="washer01" disabled ></textarea>
-        <textarea class="freemachine" id="washer03" disabled >Washer: 03 Available machine</textarea>
-        <span style="display:inline-block; width: 142px;"></span>
-        <textarea class="freemachine" id="washer03" disabled >Washer: 05 Available machine</textarea>
-        <textarea class="brokemachine" id="washer03" disabled >Washer: 07 Broken, awaiting repair</textarea>
         <br>
         <textarea class="timedmachine"  id="washer02"disabled ></textarea>
-        <textarea class="donemachine" id="washer03" disabled >Washer: 04 Finished, awaiting pickup</textarea>
+        <textarea class="donemachine" id="washer03" disabled >Washer: 03 Finished, awaiting pickup</textarea>
+        <span style="display:inline-block; width: 142px;"></span>
+        <textarea class="freemachine" id="washer03" disabled >Washer: 05 Available machine</textarea>
+        <textarea class="freemachine" id="washer03" disabled >Washer: 07 Available machine</textarea>
+        <br>
+        <textarea class="timedmachine" id="washer01" disabled ></textarea>
+        <textarea class="freemachine" id="washer03" disabled >Washer: 04 Available machine</textarea>
         <span style="display:inline-block; width: 142px;"></span>
         <textarea class="freemachine" id="washer03" disabled >Washer: 06 Available machine</textarea>
-        <textarea class="freemachine" id="washer03" disabled >Washer: 08 Available machine</textarea>
-        
-    
+        <textarea class="brokemachine" id="washer03" disabled >Washer: 08 Broken, awaiting repair</textarea>
+    </center>
     <p id="time"></p>
     <script>
         var timeGoalA = new Date().getTime() + 24 * 60 * 1000;
@@ -156,7 +155,7 @@
                 status = "Finished, awaiting pickup";
                 document.getElementById("washer01").style.backgroundColor = "orange"
             }
-            document.getElementById("washer01").innerHTML = 'Washer: 01 ' + status;
+            document.getElementById("washer01").innerHTML = 'Washer: 02 ' + status;
 
         }, 50);
         var timeGoalB = new Date().getTime() + .25 * 60 * 1000;
@@ -175,7 +174,7 @@
                 status = "Finished, awaiting pickup";
                 document.getElementById("washer02").style.backgroundColor = "orange"
             }
-            document.getElementById("washer02").innerHTML = 'Washer: 02 ' + status;
+            document.getElementById("washer02").innerHTML = 'Washer: 01 ' + status;
 
         }, 50);
         var timeGoalC = new Date().getTime() + 2.6 * 60 * 1000;
@@ -194,7 +193,7 @@
                 status = "Finished, awaiting pickup";
                 document.getElementById("dryer01").style.backgroundColor = "orange"
             }
-            document.getElementById("dryer01").innerHTML = 'Dryer: 01 ' + status;
+            document.getElementById("dryer01").innerHTML = 'Dryer: 06 ' + status;
 
         }, 50);
 </script>

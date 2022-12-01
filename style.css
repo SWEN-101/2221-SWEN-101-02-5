@@ -1,86 +1,52 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
   
   body {
     height: 100vh;
-    background-color: rgb(255, 124, 63);
+    background-color:rgb(244, 218, 177);
     font-family: "Poppins", sans-serif;
   }
-  a,
-  button {
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .dropdown {
-    height: 10vh;
-    width: 60%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-  .Location,
-  .Resources {
-    position: relative;
-  }
-  
-  .Location ul,
-  .Resources ul {
-    margin-top: 10px;
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
+  .dropdown { 
+    border:none;
+    padding: 1px 1px;
+    border-radius:5px;
     flex-direction: column;
-    align-items: center;
-    width: 200px;
-    height: 200px;
     background: white;
-    left: 0px;
-    list-style: none;
     border-radius: 5px;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-10px);
-    transition: all 0.4s ease;
-  }
-  .Location li,
-  .Resources li {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    justify-content: space-around;
     align-items: center;
   }
-  
-  .Location li:hover,
-  .Resources li:hover {
-    background-color: rgb(197, 173, 181);
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
   }
-  
-  .Location a,
-  .Resources a {
-    color: black;
+  .dropdown-content-resources {
+    display: none;
+    position: absolute;
+    width: 200%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content, .dropdown:hover .dropdown-content-resources {
+    display: block;
+  }
+  .dropdown-content a, .dropdown-content-resources a {
+    display: block;
+    color: #000000;
+    padding: 5px;
     text-decoration: none;
+    background-color: #bd5500;
+  }
+  .dropdown-content a:hover, .dropdown-content-resources a:hover {
+    color: #FFFFFF;
+    background-color: #bd5500;
   }
   
-  .dropdown button,
-  .home {
-    background: none;
-    text-decoration: none;
-    border: none;
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-  }
   
-  .Location button:focus + ul,
-  .Resources button:focus + ul {
-    opacity: 1;
-    pointer-events: all;
-    transform: translateY(0px);
-  }
+  
