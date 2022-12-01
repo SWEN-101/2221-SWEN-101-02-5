@@ -52,7 +52,7 @@ See LICENSE for details.
 
 **Bugs Found:**
 
-**Finished:** No
+**Finished:** Yes
 #
 **Page Two:** RIT Integrated Login
 
@@ -64,7 +64,7 @@ See LICENSE for details.
 
 **Bugs Found:**
 
-**Finished:** No
+**Finished:** Yes
 #
 **Page Three:** Home Page
 
@@ -78,7 +78,7 @@ See LICENSE for details.
 
 **Finished:** No
 #
-**Page Four:** Laundry Room Overview
+**Page Four+a few extras:** Laundry Room Overview(per laundry room)
 
 **Creator:** Ethan Patterson
 
@@ -108,11 +108,11 @@ See LICENSE for details.
 
 **Ready For Testing:** Yes
 
-**Tested By:**
+**Tested By:** Ethan Patterson
 
-**Bugs Found:**
+**Bugs Found:** Works fine 
 
-**Finished:** No
+**Finished:** Yes
 #
 **Page Seven:** Active Machines Page
 
